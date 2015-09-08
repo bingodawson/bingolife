@@ -1,0 +1,1 @@
+update blog_category set position =  case category_id when 4 then 3 when 7 then 2 else position end

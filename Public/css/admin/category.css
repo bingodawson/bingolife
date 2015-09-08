@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.edit-category-title				{ padding:10px;  margin-bottom:10px; }
+.form-category						{  }
+.form-category .form-group span		{ padding-top:5px; padding-bottom:10px; }
+.add-category-row-1					{ padding:10px; }
+.category-list td img				{ width:25px; }
+.category-list tr .icon-edit		{ display:none; }
+.category-list tr:hover .icon-edit	{ display:block; }
+.btn-category-save					{ height:35px; }
+@media all and (min-width: 900px){
+	.btn-category-save					{ float:right !important; width:80px !important; padding-left:20px !important; padding-right:20px !important;}
+}
